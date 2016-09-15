@@ -1,9 +1,9 @@
 # BarcodeCompare
-For comparing 96-well plate layout .csv files
+For comparing the similarity between tubes on two barcoded 96-well plates.
 
 ## Requirements
--Internet connection
--Shiny package
+*Internet connection
+*Shiny package
 
 If you dont have Shiny installed on your current version of R, run the commands below:
 
@@ -20,5 +20,16 @@ To run the code type the command below.
 runGitHub("/BarcodeCompare/", "michaelway")
 
 ```
+
+## ShinyApp
+
+If you dont fancy running it locally the app is hosted at shinyapps.io:
+
+https://michaelway.shinyapps.io/BarcodeCompare/
+
+
+## Feedback
+
+I would love to hear any feedback, comments or suggestions for this app.
 
 Enjoy!
