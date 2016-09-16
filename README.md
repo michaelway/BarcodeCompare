@@ -17,6 +17,7 @@ library(shiny)
 To run the code type the command below.
 
 ```
+library(devtools)
 runGitHub("/BarcodeCompare/", "michaelway")
 
 ```
