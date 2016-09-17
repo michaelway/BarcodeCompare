@@ -1,6 +1,8 @@
 # BarcodeCompare
 For comparing the similarity between tubes on two barcoded 96-well plates.
 
+![Alt Text](test.gif)
+
 ## Requirements
 *Internet connection
 *Shiny package
