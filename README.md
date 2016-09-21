@@ -19,7 +19,7 @@ library(shiny)
 To run the code type the command below.
 
 ```
-runGitHub("/BarcodeCompare/", "michaelway")
+runGitHub("BarcodeCompare", "michaelway")
 
 ```
 
