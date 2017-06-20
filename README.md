@@ -1,11 +1,11 @@
 # BarcodeCompare
 For comparing the similarity between tubes on two barcoded 96-well plates.
 
-![Alt Text](test2.gif)
+![Alt Text](img/example.gif)
 
 ## Requirements
-*Internet connection
-*Shiny package
+* Internet connection
+* Shiny package
 
 If you dont have Shiny installed on your current version of R, run the commands below:
 
@@ -30,8 +30,3 @@ If you dont fancy running it locally the app is hosted at shinyapps.io:
 https://michaelway.shinyapps.io/BarcodeCompare/
 
 
-## Feedback
-
-I would love to hear any feedback, comments or suggestions for this app.
-
-Enjoy!
