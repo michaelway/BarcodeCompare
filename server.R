@@ -18,8 +18,8 @@ shinyServer(function(input, output, session) {
 
   output$distPlot <- renderPlot({
     
-    inFile1 <- input$file1
-    inFile2 <- input$file2
+    inFile1 <- req(input$file1)
+    inFile2 <- req(input$file2)
     
     
 
