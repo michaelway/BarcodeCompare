@@ -35,9 +35,10 @@ shinyUI(fluidPage(
     
     # Show a plot of the generated distribution
     mainPanel(
-      plotOutput("distPlot",  height = 400, width = 600),
-      h2("Conflicting Samples"),
-      dataTableOutput("text1")
+      tabsetPanel(
+        tabPanel("Conflicting samples", plotOutput("distPlot",  height = 400, width = 600)),
+        tabPanel("Data", dataTableOutput("text1"))
+      )
     )
   )
 ))
