@@ -23,7 +23,7 @@ shinyServer(function(input, output, session) {
     
     
 
-    merge <- mergeBarcodeTable(inFile1, inFile2)
+    merge <- mergeBarcodeTable(inFile1$datapath, inFile2$datapath)
     
     plotBarcodeCompare(merge)
 
